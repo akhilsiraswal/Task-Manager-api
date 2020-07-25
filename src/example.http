@@ -1,0 +1,14 @@
+@host = http://localhost:3000/
+
+POST  {{host}}users http/1.1
+content-type: application/json
+
+{
+    "name":"akhil",
+    "password":"akhil@123",
+    "email":"akhilsiraswal1@gmail.com",
+    "age":"23"
+}
+
+
+
